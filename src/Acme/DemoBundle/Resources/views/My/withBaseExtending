@@ -1,0 +1,6 @@
+{% extends "AcmeDemoBundle::layout.html.twig" %}
+{% block tittle "Demo" %}
+    {% content %}
+    <h1>Demo content</h1>
+    <p>Twig that extends base class</p>
+    {% endofblock %}
